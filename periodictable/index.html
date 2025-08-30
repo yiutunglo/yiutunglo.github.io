@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grid Example</title>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.grid-item {
+  width: 4.6vw;
+  background-color: plum;
+  text-align: center;
+  border: 1px solid lightgrey;
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin-bottom: 0.2vw;
+  padding-bottom: 0.2vw;
+}
+.grid-color-blank {
+  background-color: transparent;
+  border: 0px;
+  text-align: right;
+  font-size: 1.5vw;
+  font-weight: normal;
+  padding-top: 2vw;
+}
+.grid-color-yellow {background-color: LightYellow;}
+.grid-color-orange {background-color: PeachPuff;}
+.grid-color-red {background-color: Pink;}
+.grid-color-darkgreen {background-color: YellowGreen;}
+.grid-color-green {background-color: palegreen;}
+.grid-color-lightgreen {background-color: Aquamarine;}
+.grid-color-blue {background-color: SkyBlue;}
+.grid-color-lightblue {background-color: PaleTurquoise;}
+.grid-color-purple {background-color: Lavender;}
+.atom_row {
+  display: table;
+  clear: both;
+}
+.atom_num {
+  float: left;
+  width: 1vw;
+  text-align: left;
+  font-size: 1vw;
+  font-weight: bold;
+  padding-left: 0.2vw;
+}
+.atom_mass {
+  float: right;
+  width: 3.4vw;
+  text-align: right;
+  font-size: 0.8vw;
+  padding-top: 0.3vw;
+}
+.atom_symbol {
+  display: block;
+  text-align: center;
+  padding: 0;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+.atom_Name1 {
+  display: block;
+  text-align: center;
+  font-size: 0.8vw;
+  font-weight: normal;
+}
+.atom_Name2 {
+  display: block;
+  text-align: center;
+  font-size: 0.45vw;
+  font-weight: normal;
+}
+@media screen and (max-width: 800px) {
+  .atom_num {
+    width:4.4vw;
+    text-align: center;
+  }
+  .atom_mass {
+    display: None;
+  }
+}
+</style>
+</head>
+<body>
+  <h1>Periodic Table of Elements</h1>
+  <hr>
+  <br>
+  <div class="grid-container">
+
+    <div class="grid-item grid-color-blank">1</div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">1</div>
+        <div class="atom_mass">1.0080</div>
+      </div>
+      <div class="atom_symbol">H</div>
+      <div class="atom_Name1">Hydrogen</div>
+      <div class="atom_Name2">Nonmetal</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-orange">
+      <div class="atom_row">
+        <div class="atom_num">2</div>
+        <div class="atom_mass">4.0026</div>
+      </div>
+      <div class="atom_symbol">He</div>
+      <div class="atom_Name1">Helium</div>
+      <div class="atom_Name2">Noble Gas</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+
+    <div class="grid-item grid-color-blank">2</div>
+    <div class="grid-item grid-color-red">
+      <div class="atom_row">
+        <div class="atom_num">3</div>
+        <div class="atom_mass">7.0</div>
+      </div>
+      <div class="atom_symbol">Li</div>
+      <div class="atom_Name1">Lithium</div>
+      <div class="atom_Name2">Alkali Metal</div>
+    </div>
+    <div class="grid-item grid-color-purple">
+      <div class="atom_row">
+        <div class="atom_num">4</div>
+        <div class="atom_mass">9.0122</div>
+      </div>
+      <div class="atom_symbol">Be</div>
+      <div class="atom_Name1">Berylium</div>
+      <div class="atom_Name2">Alkali Earth Metal</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-darkgreen">
+      <div class="atom_row">
+        <div class="atom_num">6</div>
+        <div class="atom_mass">10.81</div>
+      </div>
+      <div class="atom_symbol">B</div>
+      <div class="atom_Name1">Boron</div>
+      <div class="atom_Name2">Metalloid</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">6</div>
+        <div class="atom_mass">12.001</div>
+      </div>
+      <div class="atom_symbol">C</div>
+      <div class="atom_Name1">Carbon</div>
+      <div class="atom_Name2">Nonmetal</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">7</div>
+        <div class="atom_mass">14.007</div>
+      </div>
+      <div class="atom_symbol">N</div>
+      <div class="atom_Name1">Nitrogen</div>
+      <div class="atom_Name2">Nonmetal</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">8</div>
+        <div class="atom_mass">15.999</div>
+      </div>
+      <div class="atom_symbol">O</div>
+      <div class="atom_Name1">Oxygen</div>
+      <div class="atom_Name2">Nonmetal</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">9</div>
+        <div class="atom_mass">18.998</div>
+      </div>
+      <div class="atom_symbol">F</div>
+      <div class="atom_Name1">Fluorine</div>
+      <div class="atom_Name2">Halogen</div>
+    </div>
+    <div class="grid-item grid-color-orange">
+      <div class="atom_row">
+        <div class="atom_num">10</div>
+        <div class="atom_mass">20.180</div>
+      </div>
+      <div class="atom_symbol">Ne</div>
+      <div class="atom_Name1">Neon</div>
+      <div class="atom_Name2">Noble Gas</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+
+    <div class="grid-item grid-color-blank">3</div>
+    <div class="grid-item grid-color-red">
+      <div class="atom_row">
+        <div class="atom_num">11</div>
+        <div class="atom_mass">22.990</div>
+      </div>
+      <div class="atom_symbol">Na</div>
+      <div class="atom_Name1">Sodium</div>
+      <div class="atom_Name2">Alkali Metal</div>
+    </div>
+    <div class="grid-item grid-color-purple">
+      <div class="atom_row">
+        <div class="atom_num">12</div>
+        <div class="atom_mass">24.305</div>
+      </div>
+      <div class="atom_symbol">Mg</div>
+      <div class="atom_Name1">Magnesium</div>
+      <div class="atom_Name2">Alkali Earth Metal</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">13</div>
+        <div class="atom_mass">26.981</div>
+      </div>
+      <div class="atom_symbol">Al</div>
+      <div class="atom_Name1">Akuminum</div>
+      <div class="atom_Name2">Post-Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-darkgreen">
+      <div class="atom_row">
+        <div class="atom_num">14</div>
+        <div class="atom_mass">28.085</div>
+      </div>
+      <div class="atom_symbol">Si</div>
+      <div class="atom_Name1">Silicon</div>
+      <div class="atom_Name2">Metalloid</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">15</div>
+        <div class="atom_mass">30.974</div>
+      </div>
+      <div class="atom_symbol">P</div>
+      <div class="atom_Name1">Phosphorus</div>
+      <div class="atom_Name2">Nonmetal</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">16</div>
+        <div class="atom_mass">32.07</div>
+      </div>
+      <div class="atom_symbol">S</div>
+      <div class="atom_Name1">Sulfur</div>
+      <div class="atom_Name2">Nonmetal</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">17</div>
+        <div class="atom_mass">35.45</div>
+      </div>
+      <div class="atom_symbol">Cl</div>
+      <div class="atom_Name1">Chlorine</div>
+      <div class="atom_Name2">Halogen</div>
+    </div>
+    <div class="grid-item grid-color-orange">
+      <div class="atom_row">
+        <div class="atom_num">18</div>
+        <div class="atom_mass">39.9</div>
+      </div>
+      <div class="atom_symbol">Ar</div>
+      <div class="atom_Name1">Argon</div>
+      <div class="atom_Name2">Noble Gas</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+
+    <div class="grid-item grid-color-blank">4</div>
+    <div class="grid-item grid-color-red">
+      <div class="atom_row">
+        <div class="atom_num">19</div>
+        <div class="atom_mass">39.098</div>
+      </div>
+      <div class="atom_symbol">K</div>
+      <div class="atom_Name1">Potassium</div>
+      <div class="atom_Name2">Alkali Metal</div>
+    </div>
+    <div class="grid-item grid-color-purple">
+      <div class="atom_row">
+        <div class="atom_num">20</div>
+        <div class="atom_mass">40.08</div>
+      </div>
+      <div class="atom_symbol">Ca</div>
+      <div class="atom_Name1">Calcium</div>
+      <div class="atom_Name2">Alkali Earth Metal</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">21</div>
+        <div class="atom_mass">44.956</div>
+      </div>
+      <div class="atom_symbol">Sc</div>
+      <div class="atom_Name1">Scandium</div>
+      <div class="atom_Name2">Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">22</div>
+        <div class="atom_mass">47.867</div>
+      </div>
+      <div class="atom_symbol">Ti</div>
+      <div class="atom_Name1">Titanium</div>
+      <div class="atom_Name2">Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">23</div>
+        <div class="atom_mass">50.942</div>
+      </div>
+      <div class="atom_symbol">V</div>
+      <div class="atom_Name1">Vanadium</div>
+      <div class="atom_Name2">Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">24</div>
+        <div class="atom_mass">51.996</div>
+      </div>
+      <div class="atom_symbol">Cr</div>
+      <div class="atom_Name1">Chromium</div>
+      <div class="atom_Name2">Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">25</div>
+        <div class="atom_mass">54.938</div>
+      </div>
+      <div class="atom_symbol">Mn</div>
+      <div class="atom_Name1">Maganese</div>
+      <div class="atom_Name2">Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">26</div>
+        <div class="atom_mass">55.84</div>
+      </div>
+      <div class="atom_symbol">Fe</div>
+      <div class="atom_Name1">Iron</div>
+      <div class="atom_Name2">Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">27</div>
+        <div class="atom_mass">58.933</div>
+      </div>
+      <div class="atom_symbol">Co</div>
+      <div class="atom_Name1">Cobalt</div>
+      <div class="atom_Name2">Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">28</div>
+        <div class="atom_mass">58.693</div>
+      </div>
+      <div class="atom_symbol">Ni</div>
+      <div class="atom_Name1">Nickel</div>
+      <div class="atom_Name2">Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">29</div>
+        <div class="atom_mass">63.55</div>
+      </div>
+      <div class="atom_symbol">Cu</div>
+      <div class="atom_Name1">Copper</div>
+      <div class="atom_Name2">Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">30</div>
+        <div class="atom_mass">65.4</div>
+      </div>
+      <div class="atom_symbol">Zc</div>
+      <div class="atom_Name1">Zinc</div>
+      <div class="atom_Name2">Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">31</div>
+        <div class="atom_mass">69.723</div>
+      </div>
+      <div class="atom_symbol">Ga</div>
+      <div class="atom_Name1">Gallium</div>
+      <div class="atom_Name2">Post-Transition Metal</div>
+    </div>
+    <div class="grid-item grid-color-darkgreen">
+      <div class="atom_row">
+        <div class="atom_num">32</div>
+        <div class="atom_mass">72.63</div>
+      </div>
+      <div class="atom_symbol">Ge</div>
+        <div class="atom_Name1">Germanium</div>
+        <div class="atom_Name2">Metalloid</div>
+    </div>
+    <div class="grid-item grid-color-darkgreen">
+      <div class="atom_row">
+        <div class="atom_num">33</div>
+        <div class="atom_mass">74.922</div>
+      </div>
+      <div class="atom_symbol">As</div>
+      <div class="atom_Name1">Arsenic</div>
+      <div class="atom_Name2">Metalloid</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">34</div>
+        <div class="atom_mass">78.97</div>
+      </div>
+      <div class="atom_symbol">Se</div>
+      <div class="atom_Name1">Selenium</div>
+      <div class="atom_Name2">Nonmetal</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">35</div>
+        <div class="atom_mass">79.9</div>
+      </div>
+      <div class="atom_symbol">Br</div>
+      <div class="atom_Name1">Bromine</div>
+      <div class="atom_Name2">Halogen</div>
+    </div>
+    <div class="grid-item grid-color-orange">
+      <div class="atom_row">
+        <div class="atom_num">36</div>
+        <div class="atom_mass">83.8</div>
+      </div>
+      <div class="atom_symbol">Kr</div>
+      <div class="atom_Name1">Krypton</div>
+      <div class="atom_Name2">Noble Gas</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+
+    <div class="grid-item grid-color-blank">5</div>
+    <div class="grid-item grid-color-red">
+      <div class="atom_row">
+        <div class="atom_num">37</div>
+      </div>
+      <div class="atom_symbol">Rb</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-purple">
+      <div class="atom_row">
+        <div class="atom_num">38</div>
+      </div>
+      <div class="atom_symbol">Sr</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">39</div>
+      </div>
+      <div class="atom_symbol">Y</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">40</div>
+      </div>
+      <div class="atom_symbol">Zr</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">41</div>
+      </div>
+      <div class="atom_symbol">Nb</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">42</div>
+      </div>
+      <div class="atom_symbol">Mo</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">43</div>
+      </div>
+      <div class="atom_symbol">Tc</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">44</div>
+      </div>
+      <div class="atom_symbol">Ru</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">45</div>
+      </div>
+      <div class="atom_symbol">Rh</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">46</div>
+      </div>
+      <div class="atom_symbol">Pd</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">47</div>
+      </div>
+      <div class="atom_symbol">Ag</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">48</div>
+      </div>
+      <div class="atom_symbol">Cd</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">49</div>
+      </div>
+      <div class="atom_symbol">In</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">50</div>
+      </div>
+      <div class="atom_symbol">Sn</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-darkgreen">
+      <div class="atom_row">
+        <div class="atom_num">51</div>
+      </div>
+      <div class="atom_symbol">Sb</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-darkgreen">
+      <div class="atom_row">
+        <div class="atom_num">52</div>
+      </div>
+      <div class="atom_symbol">Te</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">53</div>
+      </div>
+      <div class="atom_symbol">I</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-orange">
+      <div class="atom_row">
+        <div class="atom_num">54</div>
+      </div>
+      <div class="atom_symbol">Xe</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+
+    <div class="grid-item grid-color-blank">6</div>
+    <div class="grid-item grid-color-red">
+      <div class="atom_row">
+        <div class="atom_num">55</div>
+      </div>
+      <div class="atom_symbol">Cs</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-purple">
+      <div class="atom_row">
+        <div class="atom_num">56</div>
+      </div>
+      <div class="atom_symbol">Ba</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blank">
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">72</div>
+      </div>
+      <div class="atom_symbol">Hf</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">73</div>
+      </div>
+      <div class="atom_symbol">Ta</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">74</div>
+      </div>
+      <div class="atom_symbol">W</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">75</div>
+      </div>
+      <div class="atom_symbol">Re</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">76</div>
+      </div>
+      <div class="atom_symbol">Os</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">77</div>
+      </div>
+      <div class="atom_symbol">Ir</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">78</div>
+      </div>
+      <div class="atom_symbol">Pt</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">79</div>
+      </div>
+      <div class="atom_symbol">Au</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">80</div>
+      </div>
+      <div class="atom_symbol">Hg</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">81</div>
+      </div>
+      <div class="atom_symbol">Tl</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">82</div>
+      </div>
+      <div class="atom_symbol">Pb</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">83</div>
+      </div>
+      <div class="atom_symbol">Bi</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-darkgreen">
+      <div class="atom_row">
+        <div class="atom_num">84</div>
+      </div>
+      <div class="atom_symbol">Po</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">85</div>
+      </div>
+      <div class="atom_symbol">At</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-orange">
+      <div class="atom_row">
+        <div class="atom_num">86</div>
+      </div>
+      <div class="atom_symbol">Rn</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+
+    <div class="grid-item grid-color-blank">7</div>
+    <div class="grid-item grid-color-red">
+      <div class="atom_row">
+        <div class="atom_num">87</div>
+      </div>
+      <div class="atom_symbol">Fr</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-purple">
+      <div class="atom_row">
+        <div class="atom_num">88</div>
+      </div>
+      <div class="atom_symbol">Ra</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blank">
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">104</div>
+      </div>
+      <div class="atom_symbol">Rf</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">105</div>
+      </div>
+      <div class="atom_symbol">Db</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">106</div>
+      </div>
+      <div class="atom_symbol">Sg</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">107</div>
+      </div>
+      <div class="atom_symbol">Bh</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">108</div>
+      </div>
+      <div class="atom_symbol">Hs</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">109</div>
+      </div>
+      <div class="atom_symbol">Mt</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">110</div>
+      </div>
+      <div class="atom_symbol">Ds</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">111</div>
+      </div>
+      <div class="atom_symbol">Rg</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blue">
+      <div class="atom_row">
+        <div class="atom_num">112</div>
+      </div>
+      <div class="atom_symbol">Cn</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">113</div>
+      </div>
+      <div class="atom_symbol">Nh</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">114</div>
+      </div>
+      <div class="atom_symbol">Fl</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">115</div>
+      </div>
+      <div class="atom_symbol">Mc</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-green">
+      <div class="atom_row">
+        <div class="atom_num">116</div>
+      </div>
+      <div class="atom_symbol">Lv</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-yellow">
+      <div class="atom_row">
+        <div class="atom_num">117</div>
+      </div>
+      <div class="atom_symbol">Ts</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-orange">
+      <div class="atom_row">
+        <div class="atom_num">118</div>
+      </div>
+      <div class="atom_symbol">Og</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">57</div>
+      </div>
+      <div class="atom_symbol">La</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">58</div>
+      </div>
+      <div class="atom_symbol">Ce</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">59</div>
+      </div>
+      <div class="atom_symbol">Pr</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">60</div>
+      </div>
+      <div class="atom_symbol">Nd</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">61</div>
+      </div>
+      <div class="atom_symbol">Pm</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">62</div>
+      </div>
+      <div class="atom_symbol">Sm</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">63</div>
+      </div>
+      <div class="atom_symbol">Eu</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">64</div>
+      </div>
+      <div class="atom_symbol">Gd</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">65</div>
+      </div>
+      <div class="atom_symbol">Tb</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">66</div>
+      </div>
+      <div class="atom_symbol">Dy</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">67</div>
+      </div>
+      <div class="atom_symbol">Ho</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">68</div>
+      </div>
+      <div class="atom_symbol">Er</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">69</div>
+      </div>
+      <div class="atom_symbol">Tm</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">70</div>
+      </div>
+      <div class="atom_symbol">Yb</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightblue">
+      <div class="atom_row">
+        <div class="atom_num">71</div>
+      </div>
+      <div class="atom_symbol">Lu</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-blank"></div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">89</div>
+      </div>
+      <div class="atom_symbol">Ac</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">90</div>
+      </div>
+      <div class="atom_symbol">Th</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">91</div>
+      </div>
+      <div class="atom_symbol">Pa</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">92</div>
+      </div>
+      <div class="atom_symbol">U</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">93</div>
+      </div>
+      <div class="atom_symbol">Np</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">94</div>
+      </div>
+      <div class="atom_symbol">Pu</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">95</div>
+      </div>
+      <div class="atom_symbol">Am</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">96</div>
+      </div>
+      <div class="atom_symbol">Cm</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">97</div>
+      </div>
+      <div class="atom_symbol">Bk</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">98</div>
+      </div>
+      <div class="atom_symbol">Cf</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">99</div>
+      </div>
+      <div class="atom_symbol">Es</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">100</div>
+      </div>
+      <div class="atom_symbol">Fm</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">101</div>
+      </div>
+      <div class="atom_symbol">Md</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">102</div>
+      </div>
+      <div class="atom_symbol">No</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-lightgreen">
+      <div class="atom_row">
+        <div class="atom_num">103</div>
+      </div>
+      <div class="atom_symbol">Lr</div>
+      <div class="atom_Name1">...</div>
+      <div class="atom_Name2">...</div>
+    </div>
+    <div class="grid-item grid-color-blank"></div>
+
+  </div>
+</body>
+</html>
